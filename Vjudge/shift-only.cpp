@@ -15,4 +15,5 @@ int min_operations = 100;
  if (current_count < min_operations) { min_operations = current_count; }
     }
 cout << min_operations << endl;
+}
 
