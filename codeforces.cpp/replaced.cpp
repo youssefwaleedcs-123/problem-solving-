@@ -18,14 +18,14 @@ int main() {
     }
     for (int i = 0; i < N; i++)
     {
-        if (A[i] > max)
+        if (A[i] > A[max])
         {
             max = i;
         }
     }
     for (int i = 0; i < N; i++)
     {
-        if (A[i] < min)
+        if (A[i] < A[min])
         {
             min = i;
         }
